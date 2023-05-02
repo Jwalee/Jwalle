@@ -1,0 +1,78 @@
+
+body {
+  font-size: 19px;
+  text-align: center;
+
+  
+  margin: 0px
+ 
+  
+}
+
+.q {
+  text-align: center;
+  justify-content: center;
+
+
+
+
+}
+
+input {
+  border-radius: 20px;
+  padding: 2px;
+  color: slategray;
+  margin: 5px;
+  font-size: 19px;
+  background: white;
+  border: 1px solid silver;
+  font-family: "cairo";
+
+}
+
+button {
+  color: midnightblue;
+
+  border: 1px;
+  border-radius: 15px;
+  co5lor: white;
+  font-size: 18px;
+  padding: 0px 50px 0px 50px;
+  
+}
+
+.ra {
+  margin: 20px;
+  margin-top: 0px;
+  border-radi4us: 0px 0px 30px 30px;
+  background: white;
+  box-s5hadow: 0px 5px 15px rgba(0, 0, 0, .15);
+  border-radius: 30px;
+  bord5er: 1.5px solid midnightblue
+}
+
+::placeholder {
+
+
+  color: silver;
+  font-size: 16px;
+  text-align: right;
+  padding-block: 5px;
+  margin: 5px;
+  font-family: "cairo";
+  
+}
+
+button:hover {
+  background: mediumblue;
+
+  animation-duration: 3s
+}
+.sa {
+  visibility: hidden ;
+}
+.saa {
+  border: 2px orange;
+  border-radius: 0px ;
+  padding: 5px
+}

